@@ -2447,8 +2447,8 @@
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tutorial-notification-center" translatesAutoresizingMaskIntoConstraints="NO" id="XxY-hs-skR">
                                         <rect key="frame" x="87" y="15" width="200" height="200"/>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This app have a Widget for Notification Center with a countdown timer for WWDC 2016 Keynote." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="reb-uI-ugS">
-                                        <rect key="frame" x="38" y="261" width="300" height="61"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This app have a Widget for Notification Center with a countdown timer for WWDC 2016 Keynote." textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="reb-uI-ugS">
+                                        <rect key="frame" x="37" y="261" width="300" height="61"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="300" id="DkU-bK-nxj"/>
                                             <constraint firstAttribute="height" constant="21" id="J83-w0-8rt"/>

@@ -14,14 +14,6 @@
             <string>Menlo-Regular</string>
             <string>Menlo-Regular</string>
             <string>Menlo-Regular</string>
-            <string>Menlo-Regular</string>
-            <string>Menlo-Regular</string>
-            <string>Menlo-Regular</string>
-            <string>Menlo-Regular</string>
-            <string>Menlo-Regular</string>
-            <string>Menlo-Regular</string>
-            <string>Menlo-Regular</string>
-            <string>Menlo-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -90,17 +82,17 @@
                             <items>
                                 <label alignment="left" verticalAlignment="center" text="print" id="xmf-bb-k9x">
                                     <color key="textColor" red="0.0" green="0.6705882353" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
                                 </label>
                                 <label alignment="left" verticalAlignment="center" text="(" id="zWE-KK-Xcm">
-                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
                                 </label>
                                 <label alignment="left" verticalAlignment="center" text="&quot;WWDC&quot;" id="YME-lw-a6E">
                                     <color key="textColor" red="0.89019607840000003" green="0.2274509804" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
                                 </label>
                                 <label alignment="left" verticalAlignment="center" text=")" id="XAs-6y-NLr">
-                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
                                 </label>
                             </items>
                         </group>
@@ -108,19 +100,19 @@
                             <items>
                                 <label alignment="left" verticalAlignment="center" text="00 Days" id="irY-9E-syq">
                                     <color key="textColor" red="0.52156862749999999" green="0.51372549020000002" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
                                 </label>
                                 <label alignment="left" verticalAlignment="center" text="00 Hours" id="Gb7-cC-t1G">
                                     <color key="textColor" red="0.81960784310000001" green="0.5568627451" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
                                 </label>
                                 <label alignment="left" verticalAlignment="center" text="00 Minutes" id="yJS-Cv-kq6">
                                     <color key="textColor" red="0.83529411760000005" green="0.23529411759999999" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
                                 </label>
                                 <label alignment="left" verticalAlignment="center" text="00 Seconds" id="oxU-Bc-8e6">
                                     <color key="textColor" red="0.69803921570000005" green="0.23921568630000001" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
-                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                    <fontDescription key="font" style="UICTFontTextStyleBody"/>
                                 </label>
                             </items>
                         </group>
