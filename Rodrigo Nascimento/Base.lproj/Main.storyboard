@@ -112,12 +112,6 @@
                                                                                 <color key="textColor" red="0.8901960784313725" green="0.22745098039215686" blue="0.18823529411764706" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map-background-brasilia" translatesAutoresizingMaskIntoConstraints="NO" id="X9l-5d-rbW">
-                                                                                <rect key="frame" x="0.0" y="203" width="300" height="197"/>
-                                                                                <constraints>
-                                                                                    <constraint firstAttribute="height" constant="197" id="eHH-OT-PDl"/>
-                                                                                </constraints>
-                                                                            </imageView>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YI4-he-q2X">
                                                                                 <rect key="frame" x="20" y="202" width="260" height="102"/>
                                                                                 <string key="text">I was born in Brasíla, DF, Brazil. With my parents I lived there until I was 16. My uncle Fernando introduce-me to computers when I was 8.</string>
@@ -145,13 +139,10 @@
                                                                             <constraint firstAttribute="trailing" secondItem="AeO-dH-l7S" secondAttribute="trailing" constant="20" id="0Ve-ZZ-Ind"/>
                                                                             <constraint firstAttribute="trailing" secondItem="AeO-dH-l7S" secondAttribute="trailing" id="2En-Z6-qfc"/>
                                                                             <constraint firstItem="rVa-pG-d32" firstAttribute="top" secondItem="1kg-ZM-HHK" secondAttribute="top" id="9DA-au-3C9"/>
-                                                                            <constraint firstItem="X9l-5d-rbW" firstAttribute="leading" secondItem="1kg-ZM-HHK" secondAttribute="leading" id="Cy4-KR-Cb0"/>
                                                                             <constraint firstItem="AeO-dH-l7S" firstAttribute="leading" secondItem="1kg-ZM-HHK" secondAttribute="leading" constant="20" id="HOb-Dn-0Ze"/>
-                                                                            <constraint firstAttribute="bottom" secondItem="X9l-5d-rbW" secondAttribute="bottom" id="Hvr-5o-tdr"/>
                                                                             <constraint firstItem="YI4-he-q2X" firstAttribute="top" secondItem="AeO-dH-l7S" secondAttribute="bottom" constant="20" id="NP9-kG-ZI4"/>
                                                                             <constraint firstAttribute="trailing" secondItem="YI4-he-q2X" secondAttribute="trailing" constant="20" id="QAN-a2-RJy"/>
                                                                             <constraint firstItem="PK4-2h-oPL" firstAttribute="leading" secondItem="1kg-ZM-HHK" secondAttribute="leading" id="Rii-JE-of7"/>
-                                                                            <constraint firstAttribute="trailing" secondItem="X9l-5d-rbW" secondAttribute="trailing" id="XVC-wJ-7FQ"/>
                                                                             <constraint firstAttribute="centerX" secondItem="AeO-dH-l7S" secondAttribute="centerX" id="Y19-wG-lvS"/>
                                                                             <constraint firstItem="AeO-dH-l7S" firstAttribute="leading" secondItem="1kg-ZM-HHK" secondAttribute="leading" id="fR8-er-cq6"/>
                                                                             <constraint firstItem="rVa-pG-d32" firstAttribute="leading" secondItem="1kg-ZM-HHK" secondAttribute="leading" id="hQc-MV-ISR"/>
@@ -206,12 +197,6 @@
                                                                                 <color key="textColor" red="0.89019607840000003" green="0.2274509804" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map-background-trescoroas" translatesAutoresizingMaskIntoConstraints="NO" id="g1N-dd-QLc">
-                                                                                <rect key="frame" x="0.0" y="173" width="300" height="227"/>
-                                                                                <constraints>
-                                                                                    <constraint firstAttribute="height" constant="227" id="wIV-hB-wZE"/>
-                                                                                </constraints>
-                                                                            </imageView>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORE-ff-JZz">
                                                                                 <rect key="frame" x="20" y="202" width="260" height="143"/>
                                                                                 <string key="text">At 16 I moved to Três Coroas, RS, Brazil to live with my mother's parents. There I had the opportunity to study computing in a technical school, where I learned programing and started my life as a developer.</string>
@@ -240,16 +225,13 @@
                                                                             <constraint firstAttribute="trailing" secondItem="TmQ-Co-WSA" secondAttribute="trailing" id="3oh-f1-5oW"/>
                                                                             <constraint firstAttribute="centerX" secondItem="e7Z-Sj-JQi" secondAttribute="centerX" id="4N0-Ku-RN7"/>
                                                                             <constraint firstAttribute="trailing" secondItem="eFq-gX-aO4" secondAttribute="trailing" id="AFq-RG-eSC"/>
-                                                                            <constraint firstAttribute="trailing" secondItem="g1N-dd-QLc" secondAttribute="trailing" id="HtK-Zf-xVH"/>
                                                                             <constraint firstItem="TmQ-Co-WSA" firstAttribute="top" secondItem="sgW-r6-b1v" secondAttribute="top" id="In9-Lh-BMV"/>
                                                                             <constraint firstItem="eFq-gX-aO4" firstAttribute="leading" secondItem="sgW-r6-b1v" secondAttribute="leading" id="Jna-dm-yQf"/>
-                                                                            <constraint firstItem="g1N-dd-QLc" firstAttribute="leading" secondItem="sgW-r6-b1v" secondAttribute="leading" id="KP3-hI-dNU"/>
                                                                             <constraint firstAttribute="trailing" secondItem="ORE-ff-JZz" secondAttribute="trailing" constant="20" id="OXo-jK-Lop"/>
                                                                             <constraint firstItem="e7Z-Sj-JQi" firstAttribute="leading" secondItem="sgW-r6-b1v" secondAttribute="leading" constant="20" id="QY7-EE-Pcu"/>
                                                                             <constraint firstAttribute="trailing" secondItem="e7Z-Sj-JQi" secondAttribute="trailing" id="bgj-Co-jAK"/>
                                                                             <constraint firstItem="e7Z-Sj-JQi" firstAttribute="leading" secondItem="sgW-r6-b1v" secondAttribute="leading" id="exB-XL-jJd"/>
                                                                             <constraint firstAttribute="trailing" secondItem="e7Z-Sj-JQi" secondAttribute="trailing" constant="20" id="gdf-n5-FMa"/>
-                                                                            <constraint firstAttribute="bottom" secondItem="g1N-dd-QLc" secondAttribute="bottom" id="nhF-Y4-4hp"/>
                                                                             <constraint firstItem="e7Z-Sj-JQi" firstAttribute="top" secondItem="eFq-gX-aO4" secondAttribute="bottom" constant="10" id="onT-bS-VBZ"/>
                                                                             <constraint firstItem="ORE-ff-JZz" firstAttribute="top" secondItem="e7Z-Sj-JQi" secondAttribute="bottom" constant="20" id="toU-sV-mtf"/>
                                                                             <constraint firstAttribute="centerX" secondItem="ORE-ff-JZz" secondAttribute="centerX" id="uif-bM-fPW"/>
@@ -301,12 +283,6 @@
                                                                                 <color key="textColor" red="0.89019607840000003" green="0.2274509804" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map-brackground-poa" translatesAutoresizingMaskIntoConstraints="NO" id="wTR-nX-GAE">
-                                                                                <rect key="frame" x="0.0" y="212" width="300" height="188"/>
-                                                                                <constraints>
-                                                                                    <constraint firstAttribute="height" constant="188" id="fTi-5W-r8t"/>
-                                                                                </constraints>
-                                                                            </imageView>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9s-ky-SWP">
                                                                                 <rect key="frame" x="20" y="202" width="260" height="143"/>
                                                                                 <string key="text">At 25 I was selected to be part of BEPiD, the Brazilian Education Program for iOS Development, for 1 year, so I moved to Porto Alegre, RS, Brazil to learn a lot about mobile development in this amazing course.</string>
@@ -343,12 +319,9 @@
                                                                             <constraint firstAttribute="trailing" secondItem="V9s-ky-SWP" secondAttribute="trailing" constant="20" id="Z3I-Wm-aU5"/>
                                                                             <constraint firstItem="bBI-BS-ETo" firstAttribute="leading" secondItem="66G-vZ-0Mh" secondAttribute="leading" id="cSe-QU-aRe"/>
                                                                             <constraint firstItem="d9P-E8-tVx" firstAttribute="top" secondItem="66G-vZ-0Mh" secondAttribute="top" id="dtt-Pg-Bqb"/>
-                                                                            <constraint firstItem="wTR-nX-GAE" firstAttribute="leading" secondItem="66G-vZ-0Mh" secondAttribute="leading" id="go1-rp-bse"/>
                                                                             <constraint firstItem="bBI-BS-ETo" firstAttribute="leading" secondItem="66G-vZ-0Mh" secondAttribute="leading" constant="20" id="kgp-Kn-Qem"/>
                                                                             <constraint firstItem="V9s-ky-SWP" firstAttribute="leading" secondItem="66G-vZ-0Mh" secondAttribute="leading" constant="20" id="plx-lJ-orC"/>
                                                                             <constraint firstItem="V9s-ky-SWP" firstAttribute="top" secondItem="bBI-BS-ETo" secondAttribute="bottom" constant="20" id="q0g-5v-V4i"/>
-                                                                            <constraint firstAttribute="bottom" secondItem="wTR-nX-GAE" secondAttribute="bottom" id="s4k-08-rbB"/>
-                                                                            <constraint firstAttribute="trailing" secondItem="wTR-nX-GAE" secondAttribute="trailing" id="xWC-Za-hih"/>
                                                                             <constraint firstItem="IoP-j4-HTm" firstAttribute="leading" secondItem="66G-vZ-0Mh" secondAttribute="leading" id="zwE-Ra-PtR"/>
                                                                         </constraints>
                                                                         <variation key="default">
@@ -402,12 +375,6 @@
                                                                                 <color key="textColor" red="0.89019607840000003" green="0.2274509804" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map-background-taquara" translatesAutoresizingMaskIntoConstraints="NO" id="kDf-ct-dvi">
-                                                                                <rect key="frame" x="0.0" y="215" width="300" height="185"/>
-                                                                                <constraints>
-                                                                                    <constraint firstAttribute="height" constant="185" id="qBo-Xg-1bx"/>
-                                                                                </constraints>
-                                                                            </imageView>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ib-tZ-nfy">
                                                                                 <rect key="frame" x="20" y="202" width="260" height="102"/>
                                                                                 <string key="text">At 26 I left my mother's house to begin my independent life, so I rented an apartment, with my girlfriend, at Taquara, RS, Brazil, at the same city of my college.</string>
@@ -444,9 +411,6 @@
                                                                             <constraint firstItem="97z-M5-gJH" firstAttribute="leading" secondItem="Zr8-AB-QTa" secondAttribute="leading" id="VKi-fr-RWv"/>
                                                                             <constraint firstItem="kMv-Y2-Xbf" firstAttribute="leading" secondItem="Zr8-AB-QTa" secondAttribute="leading" id="X7P-u7-9s7"/>
                                                                             <constraint firstItem="kMv-Y2-Xbf" firstAttribute="leading" secondItem="Zr8-AB-QTa" secondAttribute="leading" constant="20" id="a9J-jN-ev6"/>
-                                                                            <constraint firstItem="kDf-ct-dvi" firstAttribute="leading" secondItem="Zr8-AB-QTa" secondAttribute="leading" id="agy-N7-sy7"/>
-                                                                            <constraint firstAttribute="bottom" secondItem="kDf-ct-dvi" secondAttribute="bottom" id="bt6-A9-YxM"/>
-                                                                            <constraint firstAttribute="trailing" secondItem="kDf-ct-dvi" secondAttribute="trailing" id="fM7-x7-lEh"/>
                                                                             <constraint firstAttribute="centerX" secondItem="9Ib-tZ-nfy" secondAttribute="centerX" id="kyn-Hr-8Jh"/>
                                                                             <constraint firstItem="wrf-wa-Hbe" firstAttribute="leading" secondItem="Zr8-AB-QTa" secondAttribute="leading" id="n8d-DE-Chb"/>
                                                                             <constraint firstAttribute="trailing" secondItem="wrf-wa-Hbe" secondAttribute="trailing" id="s37-wL-bTx"/>
@@ -502,12 +466,6 @@
                                                                                 <color key="textColor" red="0.89019607840000003" green="0.2274509804" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
-                                                                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="map-background-sanfrancisco" translatesAutoresizingMaskIntoConstraints="NO" id="ODX-Pl-7B1">
-                                                                                <rect key="frame" x="0.0" y="185" width="300" height="215"/>
-                                                                                <constraints>
-                                                                                    <constraint firstAttribute="height" constant="215" id="k8F-hX-Huh"/>
-                                                                                </constraints>
-                                                                            </imageView>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVb-CS-YBv">
                                                                                 <rect key="frame" x="20" y="202" width="260" height="143"/>
                                                                                 <string key="text">At almost 28, if I win one scholarship ticket, I will be at San Francisco, California, USA at WWDC 2016 to feel all this feeling, meet awesome people, learn a lot and, maybe, meet you :)</string>
@@ -536,12 +494,10 @@
                                                                             <constraint firstItem="MVb-CS-YBv" firstAttribute="top" secondItem="PFc-Tc-CoB" secondAttribute="bottom" constant="20" id="DBX-pd-QHR"/>
                                                                             <constraint firstAttribute="trailing" secondItem="L0h-sa-Hug" secondAttribute="trailing" id="HK6-Ro-mjy"/>
                                                                             <constraint firstAttribute="centerX" secondItem="PFc-Tc-CoB" secondAttribute="centerX" id="Hkl-hT-bw0"/>
-                                                                            <constraint firstItem="ODX-Pl-7B1" firstAttribute="leading" secondItem="8f3-cz-2U0" secondAttribute="leading" id="LcR-r2-8uW"/>
                                                                             <constraint firstItem="btJ-vA-BPY" firstAttribute="top" secondItem="8f3-cz-2U0" secondAttribute="top" id="MLN-kz-9EL"/>
                                                                             <constraint firstAttribute="trailing" secondItem="PFc-Tc-CoB" secondAttribute="trailing" constant="20" id="Vdx-3Z-1sB"/>
                                                                             <constraint firstItem="L0h-sa-Hug" firstAttribute="top" secondItem="btJ-vA-BPY" secondAttribute="bottom" id="XEc-gZ-xC7"/>
                                                                             <constraint firstItem="btJ-vA-BPY" firstAttribute="leading" secondItem="8f3-cz-2U0" secondAttribute="leading" id="XMy-PD-Adb"/>
-                                                                            <constraint firstAttribute="trailing" secondItem="ODX-Pl-7B1" secondAttribute="trailing" id="ZIx-Hb-Qq6"/>
                                                                             <constraint firstItem="PFc-Tc-CoB" firstAttribute="top" secondItem="L0h-sa-Hug" secondAttribute="bottom" constant="10" id="aee-yG-1vz"/>
                                                                             <constraint firstAttribute="trailing" secondItem="PFc-Tc-CoB" secondAttribute="trailing" id="ap7-rb-sC9"/>
                                                                             <constraint firstItem="MVb-CS-YBv" firstAttribute="leading" secondItem="8f3-cz-2U0" secondAttribute="leading" constant="20" id="dxV-I2-U3k"/>
@@ -551,7 +507,6 @@
                                                                             <constraint firstItem="L0h-sa-Hug" firstAttribute="leading" secondItem="8f3-cz-2U0" secondAttribute="leading" id="jcU-Kd-V59"/>
                                                                             <constraint firstAttribute="centerX" secondItem="MVb-CS-YBv" secondAttribute="centerX" id="qZr-i7-d9e"/>
                                                                             <constraint firstItem="PFc-Tc-CoB" firstAttribute="leading" secondItem="8f3-cz-2U0" secondAttribute="leading" constant="20" id="rwk-fR-8lg"/>
-                                                                            <constraint firstAttribute="bottom" secondItem="ODX-Pl-7B1" secondAttribute="bottom" id="vAq-hc-75i"/>
                                                                         </constraints>
                                                                         <variation key="default">
                                                                             <mask key="constraints">
@@ -2717,11 +2672,6 @@
         <image name="education-dorothea" width="300" height="150"/>
         <image name="education-faccat" width="300" height="150"/>
         <image name="education-talk" width="300" height="150"/>
-        <image name="map-background-brasilia" width="300" height="166"/>
-        <image name="map-background-sanfrancisco" width="300" height="200"/>
-        <image name="map-background-taquara" width="300" height="142"/>
-        <image name="map-background-trescoroas" width="300" height="212"/>
-        <image name="map-brackground-poa" width="300" height="189"/>
         <image name="map-brasilia" width="300" height="150"/>
         <image name="map-brasilia-trescoroas" width="300" height="150"/>
         <image name="map-sanfrancisco" width="300" height="150"/>
