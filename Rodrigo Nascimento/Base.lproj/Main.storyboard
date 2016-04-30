@@ -18,15 +18,15 @@
             <string>Menlo-Bold</string>
             <string>Menlo-Bold</string>
             <string>Menlo-Bold</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
             <string>Menlo-Bold</string>
             <string>Menlo-Bold</string>
             <string>Menlo-Bold</string>
             <string>Menlo-Bold</string>
-            <string>Menlo-Regular</string>
-            <string>Menlo-Regular</string>
-            <string>Menlo-Regular</string>
-            <string>Menlo-Regular</string>
-            <string>Menlo-Regular</string>
         </mutableArray>
     </customFonts>
     <scenes>
@@ -46,13 +46,13 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1600" height="2300"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H41-Kv-ZdX">
-                                        <rect key="frame" x="0.0" y="0.0" width="1600" height="1993"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1600" height="2057"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="avatar-background" translatesAutoresizingMaskIntoConstraints="NO" id="sBG-1a-5ys">
                                                 <rect key="frame" x="0.0" y="-1160" width="1600" height="1280"/>
                                             </imageView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lmc-O9-4Qo" userLabel="View - Content">
-                                                <rect key="frame" x="0.0" y="120" width="1600" height="1873"/>
+                                                <rect key="frame" x="0.0" y="120" width="1600" height="1937"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rodrigo K. Nascimento" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="TPK-x6-972">
                                                         <rect key="frame" x="584" y="55" width="432" height="53"/>
@@ -113,7 +113,7 @@
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YI4-he-q2X">
-                                                                                <rect key="frame" x="20" y="202" width="260" height="102"/>
+                                                                                <rect key="frame" x="20" y="202" width="260" height="101.5"/>
                                                                                 <string key="text">I was born in Brasíla, DF, Brazil. With my parents I lived there until I was 16. My uncle Fernando introduce-me to computers when I was 8.</string>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -198,7 +198,7 @@
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ORE-ff-JZz">
-                                                                                <rect key="frame" x="20" y="202" width="260" height="143"/>
+                                                                                <rect key="frame" x="20" y="202" width="260" height="142.5"/>
                                                                                 <string key="text">At 16 I moved to Três Coroas, RS, Brazil to live with my mother's parents. There I had the opportunity to study computing in a technical school, where I learned programing and started my life as a developer.</string>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -284,7 +284,7 @@
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V9s-ky-SWP">
-                                                                                <rect key="frame" x="20" y="202" width="260" height="143"/>
+                                                                                <rect key="frame" x="20" y="202" width="260" height="142.5"/>
                                                                                 <string key="text">At 25 I was selected to be part of BEPiD, the Brazilian Education Program for iOS Development, for 1 year, so I moved to Porto Alegre, RS, Brazil to learn a lot about mobile development in this amazing course.</string>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -376,7 +376,7 @@
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ib-tZ-nfy">
-                                                                                <rect key="frame" x="20" y="202" width="260" height="102"/>
+                                                                                <rect key="frame" x="20" y="202" width="260" height="101.5"/>
                                                                                 <string key="text">At 26 I left my mother's house to begin my independent life, so I rented an apartment, with my girlfriend, at Taquara, RS, Brazil, at the same city of my college.</string>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -467,7 +467,7 @@
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MVb-CS-YBv">
-                                                                                <rect key="frame" x="20" y="202" width="260" height="143"/>
+                                                                                <rect key="frame" x="20" y="202" width="260" height="142.5"/>
                                                                                 <string key="text">At almost 28, if I win one scholarship ticket, I will be at San Francisco, California, USA at WWDC 2016 to feel all this feeling, meet awesome people, learn a lot and, maybe, meet you :)</string>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -682,7 +682,7 @@
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="em1-uh-aCo">
-                                                                                <rect key="frame" x="20" y="202" width="260" height="143"/>
+                                                                                <rect key="frame" x="20" y="202" width="260" height="142.5"/>
                                                                                 <string key="text">I decided to went in a technical High School to start learning programing. I realy liked it and I completed the 2 years of technical course with focus in development of desktop applications.</string>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -774,7 +774,7 @@
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2rw-8q-e5i">
-                                                                                <rect key="frame" x="20" y="202" width="260" height="163"/>
+                                                                                <rect key="frame" x="20" y="202" width="260" height="162.5"/>
                                                                                 <string key="text">In the same city of my High School I started my College course, focused in IT again. There I had the opportunity to get a scholarship participating in the development of a software to manage a social event, called Oktoberfest, in a near city.</string>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -864,7 +864,7 @@
                                                                                 <nil key="highlightedColor"/>
                                                                             </label>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OSb-wW-iAr">
-                                                                                <rect key="frame" x="20" y="202" width="260" height="143"/>
+                                                                                <rect key="frame" x="20" y="202" width="260" height="142.5"/>
                                                                                 <string key="text">BEPiD was one of the most important things in my education. There I learned a lot, for 1 year, about iOS programing, entrepreneurship, and every thing related to this ecosystem. Was a life expirience with great teachers.</string>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1307,7 +1307,7 @@
                                                                                 </constraints>
                                                                             </imageView>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gF0-Zw-Pch">
-                                                                                <rect key="frame" x="20" y="209" width="260" height="102"/>
+                                                                                <rect key="frame" x="20" y="209" width="260" height="101.5"/>
                                                                                 <string key="text">My second mobile project in the App Store was an app for one of the biggest real estates in Brazil. This project was made using Titanium and is very used today.</string>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1648,7 +1648,7 @@
                                                                                 </constraints>
                                                                             </imageView>
                                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dK-TG-ItE">
-                                                                                <rect key="frame" x="20" y="209" width="260" height="102"/>
+                                                                                <rect key="frame" x="20" y="209" width="260" height="101.5"/>
                                                                                 <string key="text">My second native app in BEPiD was a game with Tron style. This app contains In App Purchase and Game Center integration but isn't in the App Store yeat.</string>
                                                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -1842,7 +1842,7 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPs-D2-q4f">
-                                                        <rect key="frame" x="517" y="1578" width="567" height="41"/>
+                                                        <rect key="frame" x="517" y="1578" width="566.5" height="41"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="lessThanOrEqual" constant="600" id="FIa-vb-RG5"/>
                                                         </constraints>
@@ -1895,7 +1895,7 @@
                                                             <constraint firstAttribute="height" constant="44" id="ddz-It-eoU"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                        <state key="normal" title="CONTACT ME BY EMAIL">
+                                                        <state key="normal" title="Contact me by e-mail">
                                                             <color key="titleColor" red="0.83137254901960778" green="0.55686274509803924" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
                                                             <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                         </state>
@@ -1914,11 +1914,38 @@
                                                             <action selector="contactMeAction:" destination="lzO-5B-ElU" eventType="touchUpInside" id="5zS-bE-0D5"/>
                                                         </connections>
                                                     </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NFu-f4-rFN" customClass="UIButtonRounded" customModule="Rodrigo_Nascimento" customModuleProvider="target">
+                                                        <rect key="frame" x="584" y="1873" width="432" height="44"/>
+                                                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="44" id="oPN-Cp-RUi"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <state key="normal" title="Start tutorial again">
+                                                            <color key="titleColor" red="0.83137254900000002" green="0.5568627451" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                            <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="7"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                                <color key="value" red="0.83137254900000002" green="0.5568627451" blue="0.34901960780000002" alpha="1" colorSpace="calibratedRGB"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                <real key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="startTutorialAction:" destination="lzO-5B-ElU" eventType="touchUpInside" id="1eP-4n-GsU"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.16078431369999999" green="0.16862745100000001" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstItem="mP0-Ou-3Pf" firstAttribute="top" secondItem="nJK-o3-SQ7" secondAttribute="bottom" constant="30" id="3bg-SZ-csg"/>
                                                     <constraint firstItem="LjP-UJ-F6Y" firstAttribute="width" secondItem="mP0-Ou-3Pf" secondAttribute="width" id="5Ej-wi-TCg"/>
+                                                    <constraint firstAttribute="bottom" secondItem="NFu-f4-rFN" secondAttribute="bottom" constant="20" id="8aI-Xj-0Qk"/>
                                                     <constraint firstItem="l9h-Xq-o5F" firstAttribute="top" secondItem="VkR-vd-UHz" secondAttribute="bottom" constant="2" id="9qz-cs-ml0"/>
                                                     <constraint firstItem="Uqj-vf-kjc" firstAttribute="top" secondItem="gkw-su-BkZ" secondAttribute="bottom" constant="10" id="Awb-ly-5MB"/>
                                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="nPs-D2-q4f" secondAttribute="trailing" constant="20" id="CG8-d3-MMu"/>
@@ -1955,6 +1982,7 @@
                                                     <constraint firstItem="5bI-G6-7Iu" firstAttribute="top" secondItem="ieO-NO-YAe" secondAttribute="bottom" constant="10" id="hEE-yc-pBu"/>
                                                     <constraint firstAttribute="centerX" secondItem="nJK-o3-SQ7" secondAttribute="centerX" id="igQ-Kh-ubi"/>
                                                     <constraint firstItem="TJY-Ub-KE9" firstAttribute="top" secondItem="l9h-Xq-o5F" secondAttribute="bottom" constant="10" id="ivW-om-xvq"/>
+                                                    <constraint firstItem="NFu-f4-rFN" firstAttribute="width" secondItem="mP0-Ou-3Pf" secondAttribute="width" id="jR8-sx-9i8"/>
                                                     <constraint firstItem="QM5-Qc-f91" firstAttribute="width" secondItem="Lmc-O9-4Qo" secondAttribute="width" id="jmF-ya-b9k"/>
                                                     <constraint firstAttribute="centerX" secondItem="5bI-G6-7Iu" secondAttribute="centerX" id="k8k-54-H6W"/>
                                                     <constraint firstAttribute="centerX" secondItem="NAq-78-K4J" secondAttribute="centerX" id="kxX-Tm-lgZ"/>
@@ -1963,8 +1991,10 @@
                                                     <constraint firstAttribute="trailing" secondItem="TJY-Ub-KE9" secondAttribute="trailing" id="sul-ZS-n2q"/>
                                                     <constraint firstItem="9Bb-rC-O4V" firstAttribute="top" secondItem="TJY-Ub-KE9" secondAttribute="bottom" constant="10" id="trE-7J-EhH"/>
                                                     <constraint firstItem="ieO-NO-YAe" firstAttribute="top" secondItem="9Bb-rC-O4V" secondAttribute="bottom" id="uWR-1R-8GP"/>
+                                                    <constraint firstItem="NFu-f4-rFN" firstAttribute="top" secondItem="mP0-Ou-3Pf" secondAttribute="bottom" constant="20" id="vGv-EQ-Emp"/>
                                                     <constraint firstAttribute="centerX" secondItem="Wkm-E2-y1l" secondAttribute="centerX" id="veJ-5m-WAL"/>
                                                     <constraint firstItem="gkw-su-BkZ" firstAttribute="leading" secondItem="Lmc-O9-4Qo" secondAttribute="leading" id="wMK-TU-m1b"/>
+                                                    <constraint firstItem="NFu-f4-rFN" firstAttribute="centerX" secondItem="mP0-Ou-3Pf" secondAttribute="centerX" id="wao-fP-hPX"/>
                                                     <constraint firstItem="TPK-x6-972" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Lmc-O9-4Qo" secondAttribute="leading" constant="20" id="x7w-eV-ySo"/>
                                                     <constraint firstAttribute="centerX" secondItem="mP0-Ou-3Pf" secondAttribute="centerX" id="xmt-gb-87c"/>
                                                     <constraint firstItem="gkw-su-BkZ" firstAttribute="top" secondItem="b9N-hl-vL6" secondAttribute="bottom" id="zOg-80-ns3"/>
@@ -1973,6 +2003,7 @@
                                                 <variation key="default">
                                                     <mask key="constraints">
                                                         <exclude reference="Oj2-On-MCj"/>
+                                                        <exclude reference="bFH-tS-3fU"/>
                                                         <exclude reference="bxy-YK-xiG"/>
                                                     </mask>
                                                 </variation>
@@ -2023,12 +2054,14 @@
                                             <constraint firstItem="Ves-H9-ciy" firstAttribute="top" relation="lessThanOrEqual" secondItem="H41-Kv-ZdX" secondAttribute="top" constant="100" id="aQD-cW-2GF"/>
                                             <constraint firstAttribute="trailing" secondItem="sBG-1a-5ys" secondAttribute="trailing" id="k6z-Nl-nkl"/>
                                             <constraint firstItem="Lmc-O9-4Qo" firstAttribute="top" secondItem="sBG-1a-5ys" secondAttribute="bottom" id="lhL-cv-aS6"/>
+                                            <constraint firstAttribute="bottom" secondItem="Lmc-O9-4Qo" secondAttribute="bottom" id="lw0-x3-HVv"/>
                                             <constraint firstAttribute="centerX" secondItem="Ves-H9-ciy" secondAttribute="centerX" id="nfJ-sS-yfB"/>
                                             <constraint firstItem="Lmc-O9-4Qo" firstAttribute="leading" secondItem="H41-Kv-ZdX" secondAttribute="leading" id="q1G-yL-gVc"/>
                                             <constraint firstItem="Lmc-O9-4Qo" firstAttribute="top" secondItem="Ves-H9-ciy" secondAttribute="bottom" constant="-28" id="vH7-Lf-VDN"/>
                                         </constraints>
                                         <variation key="default">
                                             <mask key="constraints">
+                                                <exclude reference="ZZL-CF-pV5"/>
                                                 <exclude reference="XnL-Om-OZN"/>
                                                 <exclude reference="aQD-cW-2GF"/>
                                             </mask>

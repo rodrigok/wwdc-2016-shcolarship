@@ -35,6 +35,11 @@ class ViewController: UIViewController, MFMailComposeViewControllerDelegate {
         self.presentViewController(mc, animated: true, completion: nil)
     }
     
+    @IBAction func startTutorialAction(sender: AnyObject) {
+        NSUserDefaults.standardUserDefaults().setInteger(0, forKey: "TutorialCompleted")
+        startTutorial()
+    }
+
     func startTutorial() {
         if (NSUserDefaults.standardUserDefaults().integerForKey("TutorialCompleted") != 1) {
             self.performSegueWithIdentifier("segueTutorial", sender: self)

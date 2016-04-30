@@ -26,7 +26,7 @@ class PageViewController: UIPageViewController, UIPageViewControllerDataSource, 
         self.delegate = self
 
         self.dataSource = self
-        self.view.backgroundColor = UIColor.whiteColor()
+        self.view.backgroundColor = UIColor(rgba: "#292b36")
 
         let pageContentViewController = self.viewControllerAtIndex(0)
         self.setViewControllers([pageContentViewController!], direction: UIPageViewControllerNavigationDirection.Forward, animated: true, completion: nil)
