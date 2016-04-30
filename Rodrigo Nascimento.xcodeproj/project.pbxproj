@@ -29,6 +29,7 @@
 		0B6E7D6D1AEC19C100740BEB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E7D6C1AEC19C100740BEB /* PageViewController.swift */; };
 		0B888FA21CD3B667005D64AD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B888FA11CD3B667005D64AD /* UIColorExtension.swift */; };
 		0B888FA31CD3B667005D64AD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B888FA11CD3B667005D64AD /* UIColorExtension.swift */; };
+		0BBD2F9D1CD54E3100B0B57F /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBD2F9C1CD54E3100B0B57F /* ComplicationController.swift */; };
 		0BC635411AE90BD70038197B /* UIButtonLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC635401AE90BD70038197B /* UIButtonLink.swift */; };
 		0BF5253C1AE55CC700C3F921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5253B1AE55CC700C3F921 /* AppDelegate.swift */; };
 		0BF5253E1AE55CC700C3F921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5253D1AE55CC700C3F921 /* ViewController.swift */; };
@@ -130,6 +131,7 @@
 		0B6E7D661AEC0CE500740BEB /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
 		0B6E7D6C1AEC19C100740BEB /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		0B888FA11CD3B667005D64AD /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		0BBD2F9C1CD54E3100B0B57F /* ComplicationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		0BC635401AE90BD70038197B /* UIButtonLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonLink.swift; sourceTree = "<group>"; };
 		0BF525361AE55CC700C3F921 /* Rodrigo Nascimento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rodrigo Nascimento.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF5253A1AE55CC700C3F921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -210,6 +212,7 @@
 				0B5C64781AEAA5AD00BE3D6B /* InterfaceController.swift */,
 				0B5C647A1AEAA5AD00BE3D6B /* NotificationController.swift */,
 				0B5C647C1AEAA5AD00BE3D6B /* GlanceController.swift */,
+				0BBD2F9C1CD54E3100B0B57F /* ComplicationController.swift */,
 				0B5C647E1AEAA5AD00BE3D6B /* Images.xcassets */,
 				0B5C64751AEAA5AD00BE3D6B /* Supporting Files */,
 			);
@@ -541,6 +544,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B5C647B1AEAA5AD00BE3D6B /* NotificationController.swift in Sources */,
+				0BBD2F9D1CD54E3100B0B57F /* ComplicationController.swift in Sources */,
 				0B5C64791AEAA5AD00BE3D6B /* InterfaceController.swift in Sources */,
 				0B5C647D1AEAA5AD00BE3D6B /* GlanceController.swift in Sources */,
 			);
