@@ -24,6 +24,10 @@ class GlanceController: WKInterfaceController {
         
         if (date.compare(wwdcDate) == NSComparisonResult.OrderedDescending) {
             timer.invalidate()
+            daysLabel.setText("00 Days")
+            hoursLabel.setText("00 Hours")
+            minutesLabel.setText("00 Minutes")
+            secondsLabel.setText("00 Seconds")
             return
         }
         

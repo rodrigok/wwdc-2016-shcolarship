@@ -22,14 +22,27 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
         case .ModularLarge:
             let modularTemplate = CLKComplicationTemplateModularLargeStandardBody()
             modularTemplate.headerTextProvider = CLKSimpleTextProvider(text: "WWDC 2016")
-            modularTemplate.body1TextProvider = CLKSimpleTextProvider(text: "00 Days 00h 00m")
+            modularTemplate.body1TextProvider = CLKSimpleTextProvider(text: "-- Days --h --m")
             modularTemplate.body2TextProvider = CLKSimpleTextProvider(text: "June 13-17 - SF, CA")
+            template = modularTemplate
+
+        case .ModularSmall:
+            let modularTemplate = CLKComplicationTemplateModularSmallStackText()
+            modularTemplate.line1TextProvider = CLKSimpleTextProvider(text: "--d")
+            modularTemplate.line2TextProvider = CLKSimpleTextProvider(text: "--:--")
             template = modularTemplate
 
         case .UtilitarianLarge:
             let modularTemplate = CLKComplicationTemplateUtilitarianLargeFlat()
-            modularTemplate.textProvider = CLKSimpleTextProvider(text: "00 Days 00h 00m")
+            modularTemplate.textProvider = CLKSimpleTextProvider(text: "-- Days --h --m")
             template = modularTemplate
+        
+        case .CircularSmall:
+            let modularTemplate = CLKComplicationTemplateCircularSmallStackText()
+            modularTemplate.line1TextProvider = CLKSimpleTextProvider(text: "--d")
+            modularTemplate.line2TextProvider = CLKSimpleTextProvider(text: "--:--")
+            template = modularTemplate
+                
         default:
             template = nil
         }

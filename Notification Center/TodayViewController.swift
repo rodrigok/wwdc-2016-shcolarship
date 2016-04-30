@@ -27,6 +27,14 @@ class TodayViewController: UIViewController, NCWidgetProviding {
 
         if (date.compare(wwdcDate) == NSComparisonResult.OrderedDescending) {
             timer.invalidate()
+            daysLabel.text = "00 Days"
+            hoursLabel.text = "00 Hours"
+            minutesLabel.text = "00 Minutes"
+            secondsLabel.text = "00 Seconds"
+            daysLabel.alpha = 1
+            hoursLabel.alpha = 1
+            minutesLabel.alpha = 1
+            secondsLabel.alpha = 1
             return
         }
 
