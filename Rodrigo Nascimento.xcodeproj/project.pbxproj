@@ -1,0 +1,932 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0331AA1CD3E0EC0038123D /* Menlo.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 0B0331A91CD3E0EC0038123D /* Menlo.ttc */; };
+		0B0331AB1CD3E0EC0038123D /* Menlo.ttc in Resources */ = {isa = PBXBuildFile; fileRef = 0B0331A91CD3E0EC0038123D /* Menlo.ttc */; };
+		0B1CF43C1AE5C544002F5D24 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B1CF43B1AE5C544002F5D24 /* MapKit.framework */; };
+		0B1E74451CCC2E8000008DB9 /* Rodrigo Nascimento WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0B5C64731AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B1E74481CCC2E8000008DB9 /* Rodrigo Nascimento WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 0B5C64821AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit App.app */; };
+		0B2DABB71AEB47F2008284DD /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B2DABB61AEB47F2008284DD /* NotificationCenter.framework */; };
+		0B2DABBC1AEB47F2008284DD /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2DABBB1AEB47F2008284DD /* TodayViewController.swift */; };
+		0B2DABBE1AEB47F2008284DD /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B2DABBD1AEB47F2008284DD /* MainInterface.storyboard */; };
+		0B2DABC11AEB47F2008284DD /* Rodrigo Nascimento Today.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0B2DABB41AEB47F2008284DD /* Rodrigo Nascimento Today.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		0B2DABC61AEBD8A9008284DD /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B2DABC51AEBD8A9008284DD /* Media.xcassets */; };
+		0B5C646C1AE9CF9C00BE3D6B /* UIButtonRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C646B1AE9CF9C00BE3D6B /* UIButtonRounded.swift */; };
+		0B5C64791AEAA5AD00BE3D6B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C64781AEAA5AD00BE3D6B /* InterfaceController.swift */; };
+		0B5C647B1AEAA5AD00BE3D6B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C647A1AEAA5AD00BE3D6B /* NotificationController.swift */; };
+		0B5C647D1AEAA5AD00BE3D6B /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5C647C1AEAA5AD00BE3D6B /* GlanceController.swift */; };
+		0B5C647F1AEAA5AD00BE3D6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5C647E1AEAA5AD00BE3D6B /* Images.xcassets */; };
+		0B5C648B1AEAA5AD00BE3D6B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B5C64891AEAA5AD00BE3D6B /* Interface.storyboard */; };
+		0B5C648D1AEAA5AD00BE3D6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B5C648C1AEAA5AD00BE3D6B /* Images.xcassets */; };
+		0B6E7D651AEBF8EA00740BEB /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E7D641AEBF8EA00740BEB /* MapViewController.swift */; };
+		0B6E7D671AEC0CE500740BEB /* PageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E7D661AEC0CE500740BEB /* PageContentViewController.swift */; };
+		0B6E7D6D1AEC19C100740BEB /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6E7D6C1AEC19C100740BEB /* PageViewController.swift */; };
+		0B888FA21CD3B667005D64AD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B888FA11CD3B667005D64AD /* UIColorExtension.swift */; };
+		0B888FA31CD3B667005D64AD /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B888FA11CD3B667005D64AD /* UIColorExtension.swift */; };
+		0BC635411AE90BD70038197B /* UIButtonLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC635401AE90BD70038197B /* UIButtonLink.swift */; };
+		0BF5253C1AE55CC700C3F921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5253B1AE55CC700C3F921 /* AppDelegate.swift */; };
+		0BF5253E1AE55CC700C3F921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF5253D1AE55CC700C3F921 /* ViewController.swift */; };
+		0BF525411AE55CC700C3F921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BF5253F1AE55CC700C3F921 /* Main.storyboard */; };
+		0BF525431AE55CC700C3F921 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF525421AE55CC700C3F921 /* Images.xcassets */; };
+		0BF525461AE55CC700C3F921 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BF525441AE55CC700C3F921 /* LaunchScreen.xib */; };
+		0BF525521AE55CC700C3F921 /* Rodrigo_NascimentoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF525511AE55CC700C3F921 /* Rodrigo_NascimentoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B1E74431CCC2E8000008DB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF5252E1AE55CC700C3F921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5C64721AEAA5AD00BE3D6B;
+			remoteInfo = "Rodrigo Nascimento WatchKit Extension";
+		};
+		0B1E74461CCC2E8000008DB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF5252E1AE55CC700C3F921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B5C64811AEAA5AD00BE3D6B;
+			remoteInfo = "Rodrigo Nascimento WatchKit App";
+		};
+		0B2DABBF1AEB47F2008284DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF5252E1AE55CC700C3F921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B2DABB31AEB47F2008284DD;
+			remoteInfo = "Notification Center";
+		};
+		0BF5254C1AE55CC700C3F921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0BF5252E1AE55CC700C3F921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0BF525351AE55CC700C3F921;
+			remoteInfo = "Rodrigo Nascimento";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0B1E74491CCC2E8000008DB9 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0B1E74451CCC2E8000008DB9 /* Rodrigo Nascimento WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B1E744A1CCC2E8000008DB9 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				0B1E74481CCC2E8000008DB9 /* Rodrigo Nascimento WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5C64971AEAA5AE00BE3D6B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0B2DABC11AEB47F2008284DD /* Rodrigo Nascimento Today.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0B0331A91CD3E0EC0038123D /* Menlo.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Menlo.ttc; sourceTree = "<group>"; };
+		0B1CF43B1AE5C544002F5D24 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		0B2DABB41AEB47F2008284DD /* Rodrigo Nascimento Today.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rodrigo Nascimento Today.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B2DABB61AEB47F2008284DD /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		0B2DABBA1AEB47F2008284DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B2DABBB1AEB47F2008284DD /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		0B2DABBD1AEB47F2008284DD /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		0B2DABC51AEBD8A9008284DD /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
+		0B5C646B1AE9CF9C00BE3D6B /* UIButtonRounded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonRounded.swift; sourceTree = "<group>"; };
+		0B5C64731AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Rodrigo Nascimento WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5C64761AEAA5AD00BE3D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5C64771AEAA5AD00BE3D6B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0B5C64781AEAA5AD00BE3D6B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0B5C647A1AEAA5AD00BE3D6B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0B5C647C1AEAA5AD00BE3D6B /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		0B5C647E1AEAA5AD00BE3D6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0B5C64821AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rodrigo Nascimento WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B5C64881AEAA5AD00BE3D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B5C648A1AEAA5AD00BE3D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0B5C648C1AEAA5AD00BE3D6B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0B6E7D641AEBF8EA00740BEB /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0B6E7D661AEC0CE500740BEB /* PageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageContentViewController.swift; sourceTree = "<group>"; };
+		0B6E7D6C1AEC19C100740BEB /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+		0B888FA11CD3B667005D64AD /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		0BC635401AE90BD70038197B /* UIButtonLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonLink.swift; sourceTree = "<group>"; };
+		0BF525361AE55CC700C3F921 /* Rodrigo Nascimento.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rodrigo Nascimento.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF5253A1AE55CC700C3F921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF5253B1AE55CC700C3F921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BF5253D1AE55CC700C3F921 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0BF525401AE55CC700C3F921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0BF525421AE55CC700C3F921 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0BF525451AE55CC700C3F921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0BF5254B1AE55CC700C3F921 /* Rodrigo NascimentoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rodrigo NascimentoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BF525501AE55CC700C3F921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BF525511AE55CC700C3F921 /* Rodrigo_NascimentoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rodrigo_NascimentoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B2DABB11AEB47F2008284DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2DABB71AEB47F2008284DD /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5C64701AEAA5AD00BE3D6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF525331AE55CC700C3F921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B1CF43C1AE5C544002F5D24 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF525481AE55CC700C3F921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B2DABB51AEB47F2008284DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DABB61AEB47F2008284DD /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B2DABB81AEB47F2008284DD /* Notification Center */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DABBB1AEB47F2008284DD /* TodayViewController.swift */,
+				0B2DABBD1AEB47F2008284DD /* MainInterface.storyboard */,
+				0B2DABC51AEBD8A9008284DD /* Media.xcassets */,
+				0B2DABB91AEB47F2008284DD /* Supporting Files */,
+			);
+			path = "Notification Center";
+			sourceTree = "<group>";
+		};
+		0B2DABB91AEB47F2008284DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B2DABBA1AEB47F2008284DD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B5C64741AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0B5C64781AEAA5AD00BE3D6B /* InterfaceController.swift */,
+				0B5C647A1AEAA5AD00BE3D6B /* NotificationController.swift */,
+				0B5C647C1AEAA5AD00BE3D6B /* GlanceController.swift */,
+				0B5C647E1AEAA5AD00BE3D6B /* Images.xcassets */,
+				0B5C64751AEAA5AD00BE3D6B /* Supporting Files */,
+			);
+			path = "Rodrigo Nascimento WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0B5C64751AEAA5AD00BE3D6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B5C64761AEAA5AD00BE3D6B /* Info.plist */,
+				0B5C64771AEAA5AD00BE3D6B /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B5C64861AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0B5C64891AEAA5AD00BE3D6B /* Interface.storyboard */,
+				0B5C648C1AEAA5AD00BE3D6B /* Images.xcassets */,
+				0B5C64871AEAA5AD00BE3D6B /* Supporting Files */,
+			);
+			path = "Rodrigo Nascimento WatchKit App";
+			sourceTree = "<group>";
+		};
+		0B5C64871AEAA5AD00BE3D6B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B0331A91CD3E0EC0038123D /* Menlo.ttc */,
+				0B5C64881AEAA5AD00BE3D6B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0B6E7D6A1AEC0EED00740BEB /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				0B6E7D661AEC0CE500740BEB /* PageContentViewController.swift */,
+				0B6E7D6C1AEC19C100740BEB /* PageViewController.swift */,
+			);
+			name = Tutorial;
+			sourceTree = "<group>";
+		};
+		0B6E7D6B1AEC0F0200740BEB /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0BC635401AE90BD70038197B /* UIButtonLink.swift */,
+				0B5C646B1AE9CF9C00BE3D6B /* UIButtonRounded.swift */,
+			);
+			name = Components;
+			sourceTree = "<group>";
+		};
+		0BF5252D1AE55CC700C3F921 = {
+			isa = PBXGroup;
+			children = (
+				0B1CF43B1AE5C544002F5D24 /* MapKit.framework */,
+				0BF525381AE55CC700C3F921 /* Rodrigo Nascimento */,
+				0BF5254E1AE55CC700C3F921 /* Rodrigo NascimentoTests */,
+				0B5C64741AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit Extension */,
+				0B5C64861AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit App */,
+				0B2DABB81AEB47F2008284DD /* Notification Center */,
+				0B2DABB51AEB47F2008284DD /* Frameworks */,
+				0BF525371AE55CC700C3F921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BF525371AE55CC700C3F921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BF525361AE55CC700C3F921 /* Rodrigo Nascimento.app */,
+				0BF5254B1AE55CC700C3F921 /* Rodrigo NascimentoTests.xctest */,
+				0B5C64731AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit Extension.appex */,
+				0B5C64821AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit App.app */,
+				0B2DABB41AEB47F2008284DD /* Rodrigo Nascimento Today.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BF525381AE55CC700C3F921 /* Rodrigo Nascimento */ = {
+			isa = PBXGroup;
+			children = (
+				0B6E7D6B1AEC0F0200740BEB /* Components */,
+				0B6E7D6A1AEC0EED00740BEB /* Tutorial */,
+				0BF5253B1AE55CC700C3F921 /* AppDelegate.swift */,
+				0BF5253D1AE55CC700C3F921 /* ViewController.swift */,
+				0BF5253F1AE55CC700C3F921 /* Main.storyboard */,
+				0B6E7D641AEBF8EA00740BEB /* MapViewController.swift */,
+				0BF525421AE55CC700C3F921 /* Images.xcassets */,
+				0B888FA11CD3B667005D64AD /* UIColorExtension.swift */,
+				0BF525441AE55CC700C3F921 /* LaunchScreen.xib */,
+				0BF525391AE55CC700C3F921 /* Supporting Files */,
+			);
+			path = "Rodrigo Nascimento";
+			sourceTree = "<group>";
+		};
+		0BF525391AE55CC700C3F921 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BF5253A1AE55CC700C3F921 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0BF5254E1AE55CC700C3F921 /* Rodrigo NascimentoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0BF525511AE55CC700C3F921 /* Rodrigo_NascimentoTests.swift */,
+				0BF5254F1AE55CC700C3F921 /* Supporting Files */,
+			);
+			path = "Rodrigo NascimentoTests";
+			sourceTree = "<group>";
+		};
+		0BF5254F1AE55CC700C3F921 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0BF525501AE55CC700C3F921 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B2DABB31AEB47F2008284DD /* Rodrigo Nascimento Today */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B2DABC41AEB47F2008284DD /* Build configuration list for PBXNativeTarget "Rodrigo Nascimento Today" */;
+			buildPhases = (
+				0B2DABB01AEB47F2008284DD /* Sources */,
+				0B2DABB11AEB47F2008284DD /* Frameworks */,
+				0B2DABB21AEB47F2008284DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rodrigo Nascimento Today";
+			productName = "Notification Center";
+			productReference = 0B2DABB41AEB47F2008284DD /* Rodrigo Nascimento Today.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		0B5C64721AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5C64941AEAA5AE00BE3D6B /* Build configuration list for PBXNativeTarget "Rodrigo Nascimento WatchKit Extension" */;
+			buildPhases = (
+				0B5C646F1AEAA5AD00BE3D6B /* Sources */,
+				0B5C64701AEAA5AD00BE3D6B /* Frameworks */,
+				0B5C64711AEAA5AD00BE3D6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rodrigo Nascimento WatchKit Extension";
+			productName = "Rodrigo Nascimento WatchKit Extension";
+			productReference = 0B5C64731AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		0B5C64811AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B5C64911AEAA5AE00BE3D6B /* Build configuration list for PBXNativeTarget "Rodrigo Nascimento WatchKit App" */;
+			buildPhases = (
+				0B5C64801AEAA5AD00BE3D6B /* Resources */,
+				0B1E74491CCC2E8000008DB9 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B1E74441CCC2E8000008DB9 /* PBXTargetDependency */,
+			);
+			name = "Rodrigo Nascimento WatchKit App";
+			productName = "Rodrigo Nascimento WatchKit App";
+			productReference = 0B5C64821AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		0BF525351AE55CC700C3F921 /* Rodrigo Nascimento */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BF525551AE55CC700C3F921 /* Build configuration list for PBXNativeTarget "Rodrigo Nascimento" */;
+			buildPhases = (
+				0BF525321AE55CC700C3F921 /* Sources */,
+				0BF525331AE55CC700C3F921 /* Frameworks */,
+				0BF525341AE55CC700C3F921 /* Resources */,
+				0B5C64971AEAA5AE00BE3D6B /* Embed App Extensions */,
+				0B1E744A1CCC2E8000008DB9 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B2DABC01AEB47F2008284DD /* PBXTargetDependency */,
+				0B1E74471CCC2E8000008DB9 /* PBXTargetDependency */,
+			);
+			name = "Rodrigo Nascimento";
+			productName = "Rodrigo Nascimento";
+			productReference = 0BF525361AE55CC700C3F921 /* Rodrigo Nascimento.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0BF5254A1AE55CC700C3F921 /* Rodrigo NascimentoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BF525581AE55CC700C3F921 /* Build configuration list for PBXNativeTarget "Rodrigo NascimentoTests" */;
+			buildPhases = (
+				0BF525471AE55CC700C3F921 /* Sources */,
+				0BF525481AE55CC700C3F921 /* Frameworks */,
+				0BF525491AE55CC700C3F921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0BF5254D1AE55CC700C3F921 /* PBXTargetDependency */,
+			);
+			name = "Rodrigo NascimentoTests";
+			productName = "Rodrigo NascimentoTests";
+			productReference = 0BF5254B1AE55CC700C3F921 /* Rodrigo NascimentoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BF5252E1AE55CC700C3F921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0730;
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rodrigo Nascimento";
+				TargetAttributes = {
+					0B2DABB31AEB47F2008284DD = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 7CP79LM7LH;
+					};
+					0B5C64721AEAA5AD00BE3D6B = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = DX85ENM22A;
+					};
+					0B5C64811AEAA5AD00BE3D6B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					0BF525351AE55CC700C3F921 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 7CP79LM7LH;
+					};
+					0BF5254A1AE55CC700C3F921 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 0BF525351AE55CC700C3F921;
+					};
+				};
+			};
+			buildConfigurationList = 0BF525311AE55CC700C3F921 /* Build configuration list for PBXProject "Rodrigo Nascimento" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BF5252D1AE55CC700C3F921;
+			productRefGroup = 0BF525371AE55CC700C3F921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BF525351AE55CC700C3F921 /* Rodrigo Nascimento */,
+				0BF5254A1AE55CC700C3F921 /* Rodrigo NascimentoTests */,
+				0B5C64721AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit Extension */,
+				0B5C64811AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit App */,
+				0B2DABB31AEB47F2008284DD /* Rodrigo Nascimento Today */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B2DABB21AEB47F2008284DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2DABC61AEBD8A9008284DD /* Media.xcassets in Resources */,
+				0B2DABBE1AEB47F2008284DD /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5C64711AEAA5AD00BE3D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5C647F1AEAA5AD00BE3D6B /* Images.xcassets in Resources */,
+				0B0331AA1CD3E0EC0038123D /* Menlo.ttc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5C64801AEAA5AD00BE3D6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5C648B1AEAA5AD00BE3D6B /* Interface.storyboard in Resources */,
+				0B0331AB1CD3E0EC0038123D /* Menlo.ttc in Resources */,
+				0B5C648D1AEAA5AD00BE3D6B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF525341AE55CC700C3F921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF525411AE55CC700C3F921 /* Main.storyboard in Resources */,
+				0BF525461AE55CC700C3F921 /* LaunchScreen.xib in Resources */,
+				0BF525431AE55CC700C3F921 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF525491AE55CC700C3F921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B2DABB01AEB47F2008284DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B2DABBC1AEB47F2008284DD /* TodayViewController.swift in Sources */,
+				0B888FA31CD3B667005D64AD /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B5C646F1AEAA5AD00BE3D6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B5C647B1AEAA5AD00BE3D6B /* NotificationController.swift in Sources */,
+				0B5C64791AEAA5AD00BE3D6B /* InterfaceController.swift in Sources */,
+				0B5C647D1AEAA5AD00BE3D6B /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF525321AE55CC700C3F921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF5253E1AE55CC700C3F921 /* ViewController.swift in Sources */,
+				0B6E7D6D1AEC19C100740BEB /* PageViewController.swift in Sources */,
+				0BC635411AE90BD70038197B /* UIButtonLink.swift in Sources */,
+				0B888FA21CD3B667005D64AD /* UIColorExtension.swift in Sources */,
+				0BF5253C1AE55CC700C3F921 /* AppDelegate.swift in Sources */,
+				0B6E7D671AEC0CE500740BEB /* PageContentViewController.swift in Sources */,
+				0B6E7D651AEBF8EA00740BEB /* MapViewController.swift in Sources */,
+				0B5C646C1AE9CF9C00BE3D6B /* UIButtonRounded.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0BF525471AE55CC700C3F921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BF525521AE55CC700C3F921 /* Rodrigo_NascimentoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B1E74441CCC2E8000008DB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B5C64721AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit Extension */;
+			targetProxy = 0B1E74431CCC2E8000008DB9 /* PBXContainerItemProxy */;
+		};
+		0B1E74471CCC2E8000008DB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B5C64811AEAA5AD00BE3D6B /* Rodrigo Nascimento WatchKit App */;
+			targetProxy = 0B1E74461CCC2E8000008DB9 /* PBXContainerItemProxy */;
+		};
+		0B2DABC01AEB47F2008284DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B2DABB31AEB47F2008284DD /* Rodrigo Nascimento Today */;
+			targetProxy = 0B2DABBF1AEB47F2008284DD /* PBXContainerItemProxy */;
+		};
+		0BF5254D1AE55CC700C3F921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0BF525351AE55CC700C3F921 /* Rodrigo Nascimento */;
+			targetProxy = 0BF5254C1AE55CC700C3F921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B5C64891AEAA5AD00BE3D6B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B5C648A1AEAA5AD00BE3D6B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		0BF5253F1AE55CC700C3F921 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BF525401AE55CC700C3F921 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0BF525441AE55CC700C3F921 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BF525451AE55CC700C3F921 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B2DABC21AEB47F2008284DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Notification Center/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rkn.Rodrigo-Nascimento.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0B2DABC31AEB47F2008284DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Notification Center/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rkn.Rodrigo-Nascimento.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0B5C64921AEAA5AE00BE3D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Rodrigo_Nascimento_WatchKit_Extension;
+				INFOPLIST_FILE = "Rodrigo Nascimento WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "rkn.Rodrigo-Nascimento.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		0B5C64931AEAA5AE00BE3D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Rodrigo_Nascimento_WatchKit_Extension;
+				INFOPLIST_FILE = "Rodrigo Nascimento WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "rkn.Rodrigo-Nascimento.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		0B5C64951AEAA5AE00BE3D6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rodrigo Nascimento WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rkn.Rodrigo-Nascimento.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		0B5C64961AEAA5AE00BE3D6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Rodrigo Nascimento WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rkn.Rodrigo-Nascimento.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		0BF525531AE55CC700C3F921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BF525541AE55CC700C3F921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BF525561AE55CC700C3F921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Rodrigo Nascimento/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rkn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3d72b005-41d5-4195-bb48-b91b535071f5";
+			};
+			name = Debug;
+		};
+		0BF525571AE55CC700C3F921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Rodrigo Nascimento/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rkn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3d72b005-41d5-4195-bb48-b91b535071f5";
+			};
+			name = Release;
+		};
+		0BF525591AE55CC700C3F921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Rodrigo NascimentoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rkn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rodrigo Nascimento.app/Rodrigo Nascimento";
+			};
+			name = Debug;
+		};
+		0BF5255A1AE55CC700C3F921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "Rodrigo NascimentoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "rkn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rodrigo Nascimento.app/Rodrigo Nascimento";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B2DABC41AEB47F2008284DD /* Build configuration list for PBXNativeTarget "Rodrigo Nascimento Today" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B2DABC21AEB47F2008284DD /* Debug */,
+				0B2DABC31AEB47F2008284DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B5C64911AEAA5AE00BE3D6B /* Build configuration list for PBXNativeTarget "Rodrigo Nascimento WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5C64921AEAA5AE00BE3D6B /* Debug */,
+				0B5C64931AEAA5AE00BE3D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B5C64941AEAA5AE00BE3D6B /* Build configuration list for PBXNativeTarget "Rodrigo Nascimento WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B5C64951AEAA5AE00BE3D6B /* Debug */,
+				0B5C64961AEAA5AE00BE3D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BF525311AE55CC700C3F921 /* Build configuration list for PBXProject "Rodrigo Nascimento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF525531AE55CC700C3F921 /* Debug */,
+				0BF525541AE55CC700C3F921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BF525551AE55CC700C3F921 /* Build configuration list for PBXNativeTarget "Rodrigo Nascimento" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF525561AE55CC700C3F921 /* Debug */,
+				0BF525571AE55CC700C3F921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BF525581AE55CC700C3F921 /* Build configuration list for PBXNativeTarget "Rodrigo NascimentoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BF525591AE55CC700C3F921 /* Debug */,
+				0BF5255A1AE55CC700C3F921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BF5252E1AE55CC700C3F921 /* Project object */;
+}

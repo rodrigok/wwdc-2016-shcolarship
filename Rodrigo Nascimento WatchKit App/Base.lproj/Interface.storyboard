@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="10032"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Menlo.ttc">
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+            <string>Menlo-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="Rodrigo_Nascimento_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group width="1" height="135" alignment="left" contentMode="scaleAspectFill" layout="vertical" id="Y6h-di-goj">
+                            <items>
+                                <group width="134" alignment="left" id="j6M-IK-cAf">
+                                    <items>
+                                        <label alignment="left" verticalAlignment="center" text="print" id="ajb-G3-5Eh">
+                                            <color key="textColor" red="0.0" green="0.6705882352941176" blue="0.65490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                        </label>
+                                        <label alignment="left" verticalAlignment="center" text="(" id="nSa-XD-I40">
+                                            <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                        </label>
+                                        <label alignment="left" verticalAlignment="center" text="&quot;WWDC&quot;" id="zmE-yy-bpo">
+                                            <color key="textColor" red="0.89019607840000003" green="0.2274509804" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                        </label>
+                                        <label alignment="left" verticalAlignment="center" text=")" id="aWs-hL-jpP">
+                                            <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                        </label>
+                                    </items>
+                                </group>
+                                <label alignment="left" verticalAlignment="center" text="00 Days" id="bVm-ir-Vcp">
+                                    <color key="textColor" red="0.52156862745098043" green="0.51372549019607838" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                </label>
+                                <label alignment="left" verticalAlignment="center" text="00 Hours" id="h7M-SU-Mqx">
+                                    <color key="textColor" red="0.81960784313725488" green="0.55686274509803924" blue="0.38431372549019605" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                </label>
+                                <label alignment="left" verticalAlignment="center" text="00 Minutes" id="4EL-Ho-B8p">
+                                    <color key="textColor" red="0.83529411764705885" green="0.23529411764705882" blue="0.25098039215686274" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                </label>
+                                <label alignment="left" verticalAlignment="center" text="00 Seconds" id="zuX-aF-qbI">
+                                    <color key="textColor" red="0.69803921568627447" green="0.23921568627450979" blue="0.58431372549019611" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                </label>
+                            </items>
+                            <variation key="device=watch38mm" height="151"/>
+                            <variation key="device=watch42mm" height="173"/>
+                        </group>
+                    </items>
+                    <connections>
+                        <outlet property="daysLabel" destination="bVm-ir-Vcp" id="okN-8i-gGn"/>
+                        <outlet property="hoursLabel" destination="h7M-SU-Mqx" id="T0k-rJ-gXB"/>
+                        <outlet property="minutesLabel" destination="4EL-Ho-B8p" id="4N3-tO-Jyh"/>
+                        <outlet property="secondsLabel" destination="zuX-aF-qbI" id="FgH-Ii-jwm"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="234" y="346"/>
+        </scene>
+        <!--Glance Interface Controller-->
+        <scene sceneID="BOz-TT-tkC">
+            <objects>
+                <glanceController spacing="0.0" id="0uZ-2p-rRc" customClass="GlanceController" customModule="Rodrigo_Nascimento_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <group alignment="left" id="t8f-Gd-c4y">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="print" id="xmf-bb-k9x">
+                                    <color key="textColor" red="0.0" green="0.6705882353" blue="0.65490196079999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                </label>
+                                <label alignment="left" verticalAlignment="center" text="(" id="zWE-KK-Xcm">
+                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                </label>
+                                <label alignment="left" verticalAlignment="center" text="&quot;WWDC&quot;" id="YME-lw-a6E">
+                                    <color key="textColor" red="0.89019607840000003" green="0.2274509804" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                </label>
+                                <label alignment="left" verticalAlignment="center" text=")" id="XAs-6y-NLr">
+                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="14"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group alignment="left" contentMode="scaleAspectFit" layout="vertical" id="uCw-4Q-Ouw">
+                            <items>
+                                <label alignment="left" verticalAlignment="center" text="00 Days" id="irY-9E-syq">
+                                    <color key="textColor" red="0.52156862749999999" green="0.51372549020000002" blue="0.75294117650000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                </label>
+                                <label alignment="left" verticalAlignment="center" text="00 Hours" id="Gb7-cC-t1G">
+                                    <color key="textColor" red="0.81960784310000001" green="0.5568627451" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                </label>
+                                <label alignment="left" verticalAlignment="center" text="00 Minutes" id="yJS-Cv-kq6">
+                                    <color key="textColor" red="0.83529411760000005" green="0.23529411759999999" blue="0.25098039220000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                </label>
+                                <label alignment="left" verticalAlignment="center" text="00 Seconds" id="oxU-Bc-8e6">
+                                    <color key="textColor" red="0.69803921570000005" green="0.23921568630000001" blue="0.58431372550000005" alpha="1" colorSpace="calibratedRGB"/>
+                                    <fontDescription key="font" name="Menlo-Regular" family="Menlo" pointSize="16"/>
+                                </label>
+                            </items>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="14"/>
+                    <connections>
+                        <outlet property="daysLabel" destination="irY-9E-syq" id="481-2q-hwp"/>
+                        <outlet property="hoursLabel" destination="Gb7-cC-t1G" id="8VN-SL-r1X"/>
+                        <outlet property="minutesLabel" destination="yJS-Cv-kq6" id="AXb-et-gUa"/>
+                        <outlet property="secondsLabel" destination="oxU-Bc-8e6" id="d0m-bg-mRj"/>
+                    </connections>
+                </glanceController>
+            </objects>
+            <point key="canvasLocation" x="235" y="672"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" id="XkS-y5-khE"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="XkS-y5-khE" id="49B-RR-99y"/>
+                        <segue destination="gdX-wl-uQE" kind="relationship" relationship="dynamicNotificationInterface" id="fKh-qV-3T2"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="235" y="1001"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="KIl-fV-djm">
+            <objects>
+                <controller id="gdX-wl-uQE" customClass="NotificationController" customModule="Rodrigo_Nascimento_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="553" y="1001"/>
+        </scene>
+    </scenes>
+</document>
