@@ -28,7 +28,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>rkn.Rodrigo-Nascimento</string>
+	<string>rkn.rodrigo.nascimento</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

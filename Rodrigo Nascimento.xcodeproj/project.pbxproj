@@ -436,7 +436,7 @@
 				TargetAttributes = {
 					0B2DABB31AEB47F2008284DD = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = 7CP79LM7LH;
+						DevelopmentTeam = DX85ENM22A;
 					};
 					0B5C64721AEAA5AD00BE3D6B = {
 						CreatedOnToolsVersion = 6.3;
@@ -444,10 +444,11 @@
 					};
 					0B5C64811AEAA5AD00BE3D6B = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = DX85ENM22A;
 					};
 					0BF525351AE55CC700C3F921 = {
 						CreatedOnToolsVersion = 6.3;
-						DevelopmentTeam = 7CP79LM7LH;
+						DevelopmentTeam = DX85ENM22A;
 					};
 					0BF5254A1AE55CC700C3F921 = {
 						CreatedOnToolsVersion = 6.3;
@@ -632,7 +633,7 @@
 				);
 				INFOPLIST_FILE = "Notification Center/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "rkn.Rodrigo-Nascimento.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "rkn.rodrigo.nascimento.Rodrigo-Nascimento-Today";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -645,7 +646,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Notification Center/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "rkn.Rodrigo-Nascimento.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "rkn.rodrigo.nascimento.Rodrigo-Nascimento-Today";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -655,6 +656,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -662,7 +664,7 @@
 				);
 				IBSC_MODULE = Rodrigo_Nascimento_WatchKit_Extension;
 				INFOPLIST_FILE = "Rodrigo Nascimento WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "rkn.Rodrigo-Nascimento.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = rkn.rodrigo.nascimento.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -675,10 +677,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				IBSC_MODULE = Rodrigo_Nascimento_WatchKit_Extension;
 				INFOPLIST_FILE = "Rodrigo Nascimento WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "rkn.Rodrigo-Nascimento.watchkitapp";
+				PRODUCT_BUNDLE_IDENTIFIER = rkn.rodrigo.nascimento.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -699,7 +702,7 @@
 				);
 				INFOPLIST_FILE = "Rodrigo Nascimento WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "rkn.Rodrigo-Nascimento.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = rkn.rodrigo.nascimento.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -717,7 +720,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Rodrigo Nascimento WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "rkn.Rodrigo-Nascimento.watchkitapp.watchkitextension";
+				PRODUCT_BUNDLE_IDENTIFIER = rkn.rodrigo.nascimento.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				PROVISIONING_PROFILE = "";
 				SDKROOT = watchos;
@@ -819,9 +822,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Rodrigo Nascimento/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "rkn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = rkn.rodrigo.nascimento;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3d72b005-41d5-4195-bb48-b91b535071f5";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -833,9 +836,9 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Rodrigo Nascimento/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "rkn.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = rkn.rodrigo.nascimento;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "3d72b005-41d5-4195-bb48-b91b535071f5";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
